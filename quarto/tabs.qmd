@@ -1,0 +1,47 @@
+---
+title: "My document"
+format:
+  html:
+    toc: true
+    css: tabs.css
+---
+
+# Tabs Upon Tabs
+
+:::{.panel-tabset .custom-button-tabs}
+
+## One
+
+:::{.panel-tabset .custom-panel-tabs}
+
+### Hello
+
+:::{.panel-tabset .custom-vertical-tabs}
+
+#### Mouse
+
+#### Keyboard
+
+#### Desk
+
+:::
+
+### Goodbye
+
+::::
+
+## Two
+
+## Three
+
+:::
+
+:::{.panel-tabset .nav-pills .nav-fill}
+
+## Eins
+
+## Zwei
+
+## Drei
+
+:::
